@@ -48,6 +48,8 @@ CONFIG_ARGS_DICT = {
     "ds_s0_ort" : ['--ort', '--deepspeed', 'ds_config_zero_0.json'],
     "ds_s1" : ['--deepspeed', 'ds_config_zero_1.json'],
     "ds_s1_ort" : ['--ort', '--deepspeed', 'ds_config_zero_1.json']
+    "ds_s2" : ['--deepspeed', 'ds_config_zero_2.json'],
+    "ds_s2_ort" : ['--ort', '--deepspeed', 'ds_config_zero_2.json']    
 }
 
 # Check core SDK version number
